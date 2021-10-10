@@ -1,5 +1,15 @@
 {
-  "orgName": "Demo company",
+  "orgName": "FlowBasedTesting",
   "edition": "Developer",
-  "features": []
+  "features": ["MaxApexCodeSize:10"],
+  "settings" : {
+      "orgPreferenceSettings": {
+          "s1EncryptedStoragePref2": false
+      },
+      "securitySettings": {
+          "sessionSettings": {
+              "sessionTimeout": "TwelveHours"
+          }
+      }
+  }
 }
